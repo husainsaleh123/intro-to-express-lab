@@ -1,13 +1,21 @@
 {
   "name": "intro-to-express-lab",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1>   <span class=\"prefix\"></span>   <span class=\"headline\">Intro to Express Lab</span> </h1>",
   "scripts": {
-    "mdv": "node md-validate.js"
+    "mdv": "node md-validate.js",
+    "start": "node server.js"
   },
   "type": "module",
   "author": "General Assembly",
   "devDependencies": {
     "ga-mdlint": "^1.0.1"
+  },
+  "main": "md-validate.js",
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "init": "^0.1.2"
   }
 }
